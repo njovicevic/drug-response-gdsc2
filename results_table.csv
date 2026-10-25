@@ -1,0 +1,6 @@
+,random rmse,random r,cell_blind rmse,cell_blind r,drug_blind rmse,drug_blind r
+Baseline (additive),0.0899 ± 0.0000,0.295 ± 0.000,0.0965 ± 0.0000,n/a,0.1334 ± 0.0000,0.311 ± 0.000
+MF (k=64),0.0568 ± 0.0000,0.660 ± 0.000,0.0965 ± 0.0000,n/a,0.1334 ± 0.0000,0.315 ± 0.000
+Hybrid: drug features,–,–,–,–,0.1264 ± 0.0000,0.310 ± 0.000
+Hybrid: tissue,–,–,0.0868 ± 0.0000,0.293 ± 0.000,–,–
+Hybrid: tissue + mutations,–,–,0.0860 ± 0.0000,0.297 ± 0.000,–,–
